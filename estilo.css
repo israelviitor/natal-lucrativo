@@ -19,7 +19,7 @@ img{display:block;max-width:100%;height:auto;border-radius:12px}
 .bloco-1{padding-block:16px 28px}
 .hero{display:grid;gap:9px}
 .hero>*{margin:0}
-.hero img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.hero img{width:100%;height:clamp(155px,46vw,200px);object-fit:contain;background:var(--verde)}
 .hero li+li{margin-top:4px}
 .hero ul{line-height:1.36}
 .cta{display:inline-flex;justify-content:center;align-items:center;min-height:56px;width:100%;padding:10px 13px;background:var(--verde);color:var(--creme);font-weight:800;text-decoration:none;text-align:center;border-radius:12px;line-height:1.2}
@@ -73,7 +73,7 @@ footer a{color:var(--creme)}
 .legal h1{margin-top:24px}
 @media(min-width:760px){
 .hero{grid-template-columns:1fr 1fr;align-items:center;column-gap:32px}
-.hero img{grid-column:2;grid-row:1/span 4}
+.hero img{grid-column:2;grid-row:1/span 4;height:auto;aspect-ratio:4/3}
 .hero>*:not(img){grid-column:1}
 .bloco-1{padding-block:50px}
 .grade{grid-template-columns:repeat(2,minmax(0,1fr))}
