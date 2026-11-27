@@ -132,3 +132,5 @@ footer a{color:var(--creme)}
   .bloco-1 .hero li+li{margin-top:7px}
   .bloco-10 .bonus{grid-template-columns:minmax(0,1fr)}
 }
+
+.ofertas .premium img{display:block;height:auto;aspect-ratio:3/2;background:transparent}
