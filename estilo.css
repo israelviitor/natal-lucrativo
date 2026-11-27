@@ -122,3 +122,5 @@ footer a{color:var(--creme)}
   background:#f3ead7;
 }
 .bloco-10 .bonus article > p:last-child{padding:12px;line-height:1.5}
+
+.bloco-10 .bonus img{height:auto;aspect-ratio:1/1}
