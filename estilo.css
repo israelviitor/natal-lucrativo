@@ -124,3 +124,7 @@ footer a{color:var(--creme)}
 .bloco-10 .bonus article > p:last-child{padding:12px;line-height:1.5}
 
 .bloco-10 .bonus img{height:auto;aspect-ratio:1/1}
+
+@media (width < 760px){
+  .bloco-10 .bonus{grid-template-columns:minmax(0,1fr)}
+}
