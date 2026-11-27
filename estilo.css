@@ -85,3 +85,40 @@ footer a{color:var(--creme)}
 .ofertas .cta{width:100%}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.bloco-10 .bonus{gap:clamp(12px,2vw,22px)}
+.bloco-10 .bonus article{
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  padding:0;
+  border:1px solid #d8c18b;
+  border-radius:18px;
+  background:#fffaf0;
+  box-shadow:0 6px 18px rgba(42,31,26,.08);
+}
+.bloco-10 .bonus article > p:first-child{
+  padding:10px 8px;
+  background:var(--verde);
+  color:var(--branco);
+  text-align:center;
+  font-size:clamp(.75rem,1.6vw,1rem);
+  line-height:1.45;
+}
+.bloco-10 .bonus article > p:first-child strong:last-child{
+  display:inline-block;
+  margin-inline-start:4px;
+  padding:2px 7px;
+  border-radius:999px;
+  background:var(--ouro-claro);
+  color:var(--verde);
+  white-space:nowrap;
+}
+.bloco-10 .bonus img{
+  display:block;
+  margin:0;
+  padding:12px;
+  box-sizing:border-box;
+  background:#f3ead7;
+}
+.bloco-10 .bonus article > p:last-child{padding:12px;line-height:1.5}
