@@ -25,7 +25,7 @@
     const left = carousel.getBoundingClientRect().left;
     const position = card => card.getBoundingClientRect().left - left + carousel.scrollLeft;
     const offset = carousel.scrollLeft - start;
-    start = position(cards[0]) - (position(before[0]) - carousel.scrollLeft);
+    start = position(cards[0]) - position(before[0]);
     cycle = position(after[0]) - position(cards[0]);
     carousel.scrollLeft = start + (cycle ? ((offset % cycle) + cycle) % cycle : 0);
   };
