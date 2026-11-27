@@ -128,6 +128,7 @@ footer a{color:var(--creme)}
 @media (width < 760px){
   .bloco-1{padding-block:20px 30px}
   .bloco-1 .hero{gap:14px}
+  .bloco-1 .hero img{height:auto;background:transparent}
   .bloco-1 .hero li+li{margin-top:7px}
   .bloco-10 .bonus{grid-template-columns:minmax(0,1fr)}
 }
